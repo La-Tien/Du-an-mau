@@ -1,0 +1,25 @@
+.nut {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: darksalmon;
+    border: none;
+}
+
+#so {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bam {
+    margin-top: 180px;
+    width: 70px;
+    height: auto;
+}
+
+#mid {
+    margin-top: 1px;
+    width: 350px;
+    height: auto;
+}

@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    font-family: arial;
+}
+.top-header{
+    width: 1400px;
+    padding: 0 50px;
+    background-color: #2D1F16;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    width: 320px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    font-weight: bold;
+    color: #B58A52;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    margin: 0 250px;
+    justify-content: center;
+    align-items: center;
+}
+header .banner{
+    height: 550px;
+    background-image: url(/img/slider3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px;
+    line-height: 50px;
+    color: #fff;
+}
+.nut {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: darksalmon;
+    border: none;
+}
+
+#so {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bam {
+    margin-top: 180px;
+    width: 70px;
+    height: auto;
+}
+
+#mid {
+    margin-top: 1px;
+    width: 350px;
+    height: auto;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0px solid black;
+    background-color: #B58A52;
+    color: #fff;
+    font-size: 17px;
+    margin: 22px 0;
+}
+#btn{
+    width: 150px;
+    height: 50px;
+    margin: 100px 200px;
+    position: absolute;
+    left: 800px;
+    bottom: -50px;
+}
+.nd{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+.nd1{
+    width: 400px;
+    padding: 15px 0;
+    border-radius: 500px;
+    background-color: #685031;
+    color: #fff;
+}
+.nd1 img{
+    height: 50px;
+    width: 50px;
+    
+}
+.product{
+    height: 500px;
+    
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 3px;
+    font-size: 55px;
+}
+h2{
+    margin: 30px 30px;
+}
+.title{
+    line-height: 50px;
+    padding: 100px 100px;
+}
+.product img{
+    float: right;
+    margin-top: 50px;
+}
+.pro{
+    position: relative;
+}
+.pro1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+.item{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 0px;
+    /* line-height: 20px; */
+}
+.item img{
+    width: 250px;
+}
+.pro2{
+    height: 500px;
+    background-image: url(/img/bacground1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    line-height: 50px;
+    padding-top: 100px;
+    padding-left: 900px;
+}
+.pro3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+.item1{
+    width: 600px;
+    padding-top: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px solid black;
+    margin: 0px 40px;
+    /* padding: 250px 10px; */
+    text-align: justify;
+    background-image: url(/img/coffee-type2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.item2{
+    width: 600px;
+    padding-top: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px solid black;
+    margin: 0px 40px;
+    /* padding: 250px 10px; */
+    text-align: justify;
+    background-image: url(/img/cafe-sua-da.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.item1 img{
+ width: 350px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-image: url(/img/slider1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 100px 100px;
+}
